@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto IMC</title>
+    <link rel="shortcut icon" href="assets/favicon/favicon-imc.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main class="main_container">
+        <div class="main_header">
+            <h1 class="title__main_header">Calculadora de IMC</h1>
+        </div>
+
+        <div class="main_input">
+            <div class="question__main_input">
+                <label for="massa">Digite sua massa(Kg):</label>
+                <input type="text" id="massa" name="massa">
+            </div>
+
+            <div class="question__main_input">
+                <label for="altura">Digite sua altura(metros):</label>
+                <input type="text" id="altura" name="altura">
+            </div>
+
+            <button id="button-calcular" class="button__main_input">Calcular</button>
+            <button id="button-limpar" style="display: none;" class="button__main_input">Limpar</button>
+            
+
+            
+        </div>
+
+        <div id="main-result" class="main_result">
+            <span id="result-number">
+                Seu IMC é de 27.5
+            </span>
+            <span id="result-text">
+                Você está saudável
+            </span>
+            <span id="result-icon" class=" result_icon fa-regular fa-face-smile">
+
+            </span>
+        </div>
+    </main>
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

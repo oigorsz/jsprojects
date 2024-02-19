@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 :root {
     --color-background: #3D90D9;
     --color-main_container: #021F59;
@@ -11,14 +10,10 @@
     --color-white: #f1f1f1;
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
 }
-
-
 
 body {
     background-color: var(--color-background);    
@@ -29,7 +24,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .header_container {
@@ -39,6 +34,8 @@ body {
     top: 0;
     right: 0;
     padding: 1rem;
+    height: auto;
+    
 }
 
 .header_navigation ul {
@@ -53,6 +50,8 @@ body {
     font-family: "Poppins";
     color: var(--color-white);
     padding: 1rem 1.5rem;
+    justify-content: center;
+    text-align: center;
 }
 
 .header_navigation ul li a:hover {
@@ -65,6 +64,7 @@ body {
     flex-direction: column;
     background-color: var(--color-main_container);
     width: 280px;
+    height: auto;
     border-radius: 8px;
     padding: 1rem 1.5rem;
     align-items: center;
